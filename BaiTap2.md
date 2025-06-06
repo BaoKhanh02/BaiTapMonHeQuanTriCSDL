@@ -11,15 +11,25 @@
 ## BÀI TOÁN:
 Tạo csdl quan hệ với tên QLSV gồm các bảng sau:
   1,  SinhVien(#masv,hoten,NgaySinh)
+
   2,  Lop(#maLop,tenLop)
+  
   3,  GVCN(#@maLop,#@magv,#HK)
+  
   4,  LopSV(#@maLop,#@maSV,ChucVu)
+  
   5,  GiaoVien(#magv,hoten,NgaySinh,@maBM)
+  
   6,  BoMon(#MaBM,tenBM,@maKhoa)
+  
   7,  Khoa(#maKhoa,tenKhoa)
+  
   8,  MonHoc(#mamon,Tenmon,STC)
+  
   9,  LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
+  
   10, DKMH(#@maLopHP,#@maSV,DiemTP,DiemThi,PhanTramThi)
+  
 
 ## Yêu cầu
 1. Thực hiện các hành động sau trên giao diện đồ hoạ để tạo cơ sở dữ liệu cho bài toán:
