@@ -6,16 +6,27 @@
 
 ## BÀI TOÁN:
 Sửa bài 02 để có csdl như sau:
+
   1,  SinhVien(#masv,hoten,NgaySinh)
+  
   2,  Lop(#maLop,tenLop)
+  
   3,  GVCN(#@maLop,#@magv,#HK)
+  
   4,  LopSV(#@maLop,#@maSV,ChucVu)
+  
   5,  GiaoVien(#magv,hoten,NgaySinh,@maBM)
+  
   6,  BoMon(#MaBM,tenBM,@maKhoa)
+  
   7,  Khoa(#maKhoa,tenKhoa)
+  
   8,  MonHoc(#mamon,Tenmon,STC)
+  
   9,  LopHP(#maLopHP,TenLopHP,HK,@maMon,@maGV)
+  
   10, DKMH(#id_dk,#@maLopHP,#@maSV,DiemThi,PhanTramThi)
+  
   11, Diem(#id, @id_dk, diem)
 
 ## Yêu cầu
