@@ -10,6 +10,7 @@
 
 ## BÀI TOÁN:
 Tạo csdl quan hệ với tên QLSV gồm các bảng sau:
+
   1,  SinhVien(#masv,hoten,NgaySinh)
 
   2,  Lop(#maLop,tenLop)
